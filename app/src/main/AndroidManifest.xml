@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kenji.freelancemarketplace">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kenji.freelancemarketplace.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kenji.freelancemarketplace.MainActivity" />
+        </activity>
+        <activity
+            android:name=".JobsDetailActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kenji.freelancemarketplace.MainActivity" />
+        </activity>
+        <activity
+            android:name=".JobsEditActivity"
+            android:parentActivityName=".JobsPostedActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kenji.freelancemarketplace.JobsPostedActivity" />
+        </activity>
+        <activity
+            android:name=".JobsPostedActivity"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="orientation">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kenji.freelancemarketplace.MainActivity" />
+        </activity>
+        <activity
+            android:name=".JobsAddActivity"
+            android:parentActivityName=".JobsPostedActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kenji.freelancemarketplace.JobsPostedActivity" />
+        </activity>
+        <activity
+            android:name=".JobsTakenActivity"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="orientation">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kenji.freelancemarketplace.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

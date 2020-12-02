@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "469342913604",
+    "firebase_url": "https://ayokerja-caaa4.firebaseio.com",
+    "project_id": "ayokerja-caaa4",
+    "storage_bucket": "ayokerja-caaa4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469342913604:android:eb6c8e12bfc83bec",
+        "android_client_info": {
+          "package_name": "com.example.kenji.freelancemarketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469342913604-3s4lvg7sgu5f5bcutj04i45kh2mij11b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbqwvO9zEOk70DkK1ozxKirFr33p99h2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
